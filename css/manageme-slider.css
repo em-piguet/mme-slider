@@ -1,0 +1,29 @@
+
+/* 
+    Slider ManageMe Styles 
+*/
+.ManageMeSliderContent .item{
+    padding: .5rem;
+    border: 2px solid #f7f7f7;
+}
+
+.ManageMeSliderContent .lesson_sessions{
+    margin: 1rem 0;
+}
+.ManageMeSliderContent .lesson_sessions ol{
+   margin: 0 1rem;
+   padding: 0;
+}
+.ManageMeSliderContent .lesson_sessions ol li{
+    padding: 0 .5rem;
+ }
+.ManageMeSliderContent .lesson_cart_url {
+    text-align: center;
+}
+.ManageMeSliderContent .lesson_cart_url a{
+    padding: .2rem .5rem;
+    border: 1px solid; 
+}
+.ManageMeSliderContent .session_place{
+    line-height: 1.4;
+}
