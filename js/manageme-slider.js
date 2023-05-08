@@ -125,7 +125,7 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
 				monitors = datas.Monitors[0];
 			}
 			var FirstPlace = datas.Sessions[0].Place.Address.Town;
-			//console.log(datas.Sessions[0]);
+			var publicUrl = datas.Url;
 			var sessions = displaySessions(datas.Sessions);
 			var template = '';
 				template += '<div class="lesson_name">'+ datas.Lesson.Name + '</div>';
@@ -133,7 +133,7 @@ a.fn.owlCarousel.Constructor.Plugins.Animate=e}(window.Zepto||window.jQuery,wind
 				template += '<div class="lesson_price">'+ datas.Lesson.Price + '.-</div>';
 				template += '<div class="lesson_monitors">'+ monitors + '</div>';
 				template += '<div class="lesson_sessions">Sessions<ol>'+ sessions + '</ol></div>';
-				template += '<div class="lesson_cart_url"><a class="lesson_button" href="'+ cart_url + datas.LessonGuid +'" target="_blank">inscription</a></div>';
+				template += '<div class="lesson_cart_url"><a class="lesson_button" href="'+ publicUrl +'" target="_blank">inscription</a></div>';
 				template += '';
 				$('.item-'+i).html(template);
 			//$('.ManageMeSliderContent').append(template);
