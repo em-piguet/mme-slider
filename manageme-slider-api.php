@@ -9,7 +9,7 @@
  * Plugin Name:       ManageMe Slider Api
  * Plugin URI:        manage-me.pro
  * Description:       Affiche les cours de manage-me.pro dans un slider.
- * Version:           1.0.6
+ * Version:           1.0.7
  * Author:            Wonderweb
  * Author URI:        wonderweb.ch
  * License:           GPL-2.0+
@@ -22,7 +22,7 @@ if (! defined('WPINC')) {
     die;
 }
 
-define('MANAGEME_SLIDER_VERSION', '1.0.6');
+define('MANAGEME_SLIDER_VERSION', '1.0.7');
 
 require plugin_dir_path(__FILE__) . 'inc/manageme-slider-api-public.php';
 
